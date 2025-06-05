@@ -23,3 +23,4 @@ $(call inherit-product, vendor/motorola/kane/kane-vendor.mk)
 # Wi-Fi
 PRODUCT_PACKAGES += \
     KaneWifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
